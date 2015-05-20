@@ -32,7 +32,8 @@ title: "Donggi Kim"
     1. 리스트 안의 리스트 안의 리스트
   * 리스트 안의 리스트 2
 
-> 인용  
+> 인용
+
 >> 인용인용
 
 인라인링크 : [Google](http://www.google.com)
@@ -52,7 +53,7 @@ title: "Donggi Kim"
 | 내용21 | 내용22 | 내용23 | 내용24 |
 
 
-\'코드\'  
+\`코드\`  
     #include <ctdio>
     내용내용
 
