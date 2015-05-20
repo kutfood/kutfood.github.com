@@ -4,23 +4,85 @@ title:  "Lee, seon hoon"
 date:   2015-05-13 12:31:30
 categories: jekyll update
 ---
-categories: jekyll update
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<h2 >큰 제목</h2>
 
-Jekyll also offers powerful support for code snippets:
+<h1 >작은 제목</h1>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<h2 >굵은 글씨 1</h2>
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+<h3 >굵은 글씨 2</h3>
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+<h4>굵은 글씨 3</h4>
+
+<h5 >굵은 글씨 4</h5>
+
+<h6>굵은 글씨 5</h6>
+
+<p><em>기울여쓰기(Italic)</em></p>
+
+<p><strong>굵게쓰기(Bold)</strong></p>
+
+<ul>
+  <li>바나나</li>
+  <li>사과</li>
+  <li>수박</li>
+</ul>
+
+<ol>
+  <li>banana</li>
+  <li>apple</li>
+  <li>watermelon</li>
+</ol>
+
+<ul>
+  <li>목록 안에 목록
+    <ul>
+      <li>또다시 리스트가
+        <ul>
+          <li>한단계 더 아래!</li>
+        </ul>
+      </li>
+      <li>한단계 위로!</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>이것이 인용입니다.
+인용인용~
+인용~</p>
+</blockquote>
+
+<p>인라인 링크 :  <a href="http://www.google.com/">Google</a></p>
+
+<p>참조 링크 : <a href="http://www.google.com/">Google</a>.</p>
+
+<p><img src="http://img.naver.net/static/www/u/2013/0731/nmms_224940510.gif" alt="Naver" />.</p>
+
+<p>표</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>항목 1</th>
+      <th>항목 2</th>
+      <th>항목 3</th>
+      <th>항목 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>내용 11</td>
+      <td>내용 12</td>
+      <td>내용 13</td>
+      <td>내용 14</td>
+    </tr>
+    <tr>
+      <td>내용 21</td>
+      <td>내용 22</td>
+      <td>내용 23</td>
+      <td>내용 24</td>
+    </tr>
+  </tbody>
+</table>
