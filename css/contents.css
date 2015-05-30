@@ -7,7 +7,7 @@
 }
 
 header {
-	height: 100px;
+	height: 90px;
 	text-align: center;
 	background-color: yellow;
 }
@@ -24,14 +24,15 @@ a {
 }
 
 header a {
+	color: black;
 	text-decoration: none;
-	height: 100px;
+	height: 90px;
 	font-size: 300%;
-	line-height: 100px;
+	line-height: 90px;
 }
 
 nav {
-	height: 50px;
+	height: 30px;
 }
 
 ul {
@@ -48,7 +49,7 @@ li { border-radius: 20px 20px 20px 20px; margin: 2px; }
 .even li:nth-child(2n) { background-color: #76EE9A; }
 .even li:nth-child(2n+1) { background-color: #76EAEE; }
 
-li:first-child {
+section li:first-child {
 	list-style: none;
 	float: left;
 	padding: 0px;
@@ -57,7 +58,7 @@ li:first-child {
 	text-align: center;
 }
 
-li:last-child {
+section li:last-child {
 	list-style: none;
 	float: left;
 	padding: 0px;
@@ -66,21 +67,21 @@ li:last-child {
 	text-align: center;
 }
 
-li:first-child:hover {
+section li:first-child:hover {
 	margin: 7px;
 	width: 134px;
 	height: 66px;
 	margin-color: #FFFFFF;
 }
 
-li:last-child:hover {
+section li:last-child:hover {
 	margin: 7px;
 	width: 334px;
 	height: 66px;
 	margin-color: #FFFFFF;
 }
 
-li:first-child span {
+section li:first-child span {
 	text-align: center;
 	width: 150px;
 	height: 80px;
@@ -88,7 +89,7 @@ li:first-child span {
 	vertical-align: middle;	
 }
 
-li:last-child span {
+section li:last-child span {
 	text-align: center;
 	width: 350px;
 	height: 80px;
@@ -100,3 +101,49 @@ li:last-child span {
 #righttop { border-radius: 0px 50px 0px 0px; }
 #rightbottom { border-radius: 0px 0px 50px 0px; }
 #leftbottom { border-radius: 0px 0px 0px 50px; }
+
+footer {
+	margin-top: 30px;
+	height: 30px;
+	background-color: #D35EC7;
+}
+
+footer ul {
+	overflow: hidden;
+	width: 520px;
+	height: 30px;
+	margin: auto;
+}
+
+footer li {
+	list-style: none;
+	float: left;
+	padding: 0px;
+	text-align: center;
+	height: 30px;
+	width: 100px;
+}
+
+footer li a {
+	color: black;
+	line-height: 30px;
+	font-size: 100%;
+	text-decoration: none;
+	display:block; width: 100%; height: 100%; padding 0px;
+	vertical-align: middle;
+}
+
+footer li a span {
+	color: black;
+	line-height: 30px;
+	font-size: 100%;
+	vertical-align: middle;
+}
+
+footer li:hover {
+	margin: 7px;
+	width: 84px;
+	height: 16px;
+	margin-color: #FFFFFF;
+}
+
